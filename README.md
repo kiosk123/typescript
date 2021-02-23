@@ -5,7 +5,7 @@
 1. [node.js](https://nodejs.org/en/)  
 2. [vs code](https://code.visualstudio.com/)  
 3. 타입스크립트 컴파일러 설치 및 제거 - [참고](https://blog.naver.com/thdbsgh3443/221372524988)
-```
+```bash
 # -g는 전역설치 옵션
 npm install -g typescript 
 
@@ -16,6 +16,6 @@ sudo npm install -g typescript
 sudo npm uninstall -g typescript
 ```
 4. 타입스크립트 컴파일
-```
+```bash
 tsc <타입스크립트 파일명>
 ```
