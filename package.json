@@ -1,0 +1,20 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "1. 타입스크립트 파일은 확장자가 .ts로 끝난다  \r 2. 타입스크립트 파일을 타입스크립트 컴파일러로 컴파일하여 자바스크립트 파일로 만든 후 배포한다. - 기본적으로 es5 컴파일된다.",
+  "main": "promise.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiosk123/typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kiosk123/typescript/issues"
+  },
+  "homepage": "https://github.com/kiosk123/typescript#readme"
+}

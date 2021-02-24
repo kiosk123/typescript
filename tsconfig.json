@@ -1,0 +1,55 @@
+// {
+//     "include": [
+//         "src/**/*.ts"
+//     ],
+
+//     "exclude": [
+//         "node_modules"
+//     ],
+
+//     "compilerOptions": {
+//         "module": "commonjs", 
+//         "rootDir": "src",
+//         "outDir": "dist",
+//         "target": "es6",
+//         "lib": ["ES2015", "DOM"]
+//     }
+// }
+
+// {
+//     "include": [
+//         "src/**/*.ts"
+//     ],
+
+//     "exclude": [
+//         "node_modules"
+//     ],
+
+//     "compilerOptions": {
+//         "module": "ES6", 
+//         "rootDir": "src",
+//         "outDir": "dist",
+//         "target": "ES6"
+//     }
+// }
+
+{
+    "include": [
+        "src/**/*.ts"
+    ],
+
+    "exclude": [
+        "node_modules"
+    ],
+
+    "compilerOptions": {
+        "module": "ES6", 
+        "rootDir": "src",
+        "outDir": "dist",
+        "target": "ES5",
+        "lib": ["ES2015", "DOM"],
+        "sourceMap": true, // 타입스크립트 소스를 브라우저에서 볼수 있게 설정 - *.js.map 파일 생성
+        "removeComments": true, // 빌드시 주석제거
+        "noImplicitAny": true // 함수 파라미터의 타입을 암묵적으로 any타입을 방지하도록 설정
+    }
+}
