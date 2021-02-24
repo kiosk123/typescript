@@ -32,4 +32,11 @@ tsc <타입스크립트 파일명> --target es6
 tsc <타입스크립트 파일명> --lib <파라미터>
 # ex) Promise 컴파일시 es2015.promise를 쓰겠다라는 의미
 tsc promise.ts --lib es2015.promise,es2015.iterable
+tsc promise.ts --lib es2015,dom
+
+# target을 es6로 하지만 모듈 시스템은 common js형태로 하기
+tsc promise.ts --target es6 --lib es2015,dom --module commonjs
+
+# 컴파일시 적용 옵션 확인 --showConfig
+tsc promise.ts --target es6 --lib es2015,dom --module commonjs --showConfig
 ```
