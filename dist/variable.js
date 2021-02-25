@@ -12,4 +12,11 @@ function outer() {
     }
 }
 outer();
+var score3;
+score3 = 10;
+console.log(score3);
+var anytype;
+anytype = "anytype";
+console.log(anytype);
+var value = 50;
 //# sourceMappingURL=variable.js.map
