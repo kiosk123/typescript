@@ -44,3 +44,8 @@ tsc promise.ts --target es6 --lib es2015,dom --module commonjs --showConfig
 5. 타입 스크립트 컴파일 설정파일 - tsconfig.json  
 `npm init -y`으로 생성된 node 프로젝트에서 npm으로 의존 모듈 설치시 node_modules 폴더에 저장되므로 node_modules는 exclude 해준다.  
 설정 후 tsc 명령만 프로젝트 폴더에서 입력하면 옵션없이도 컴파일 처리된다.  
+
+6. node 프로젝트내의 코드 실행
+```
+node <파일명>
+```
