@@ -15,3 +15,11 @@ function outer() {
 }
 
 outer()
+
+let score3:number //permit only number type
+score3 = 10
+console.log(score3)
+
+let anytype //any type
+anytype = "anytype"
+console.log(anytype)
