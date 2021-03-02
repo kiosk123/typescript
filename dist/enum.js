@@ -14,7 +14,7 @@ function getDiscount(v) {
             return 10;
     }
 }
-var discount = getDiscount(StarbucksGrade.GOLD);
+var discount = getDiscount(StarbucksGrade["GOLD"]);
 console.log(discount);
 console.log(StarbucksGrade.GREEN == "GREEN");
 console.log(StarbucksGrade["GREEN"]);
