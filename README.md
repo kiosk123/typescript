@@ -46,6 +46,6 @@ tsc promise.ts --target es6 --lib es2015,dom --module commonjs --showConfig
 설정 후 tsc 명령만 프로젝트 폴더에서 입력하면 옵션없이도 컴파일 처리된다.  
 
 6. node 프로젝트내의 코드 실행
-```
+```bash
 node <파일명>
 ```

@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/kiosk123/typescript/issues"
   },
-  "homepage": "https://github.com/kiosk123/typescript#readme"
+  "homepage": "https://github.com/kiosk123/typescript#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
 }
