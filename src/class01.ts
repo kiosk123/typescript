@@ -29,3 +29,4 @@ class Cart {
 }
 
 const cart = new Cart({name: "John"})
+
